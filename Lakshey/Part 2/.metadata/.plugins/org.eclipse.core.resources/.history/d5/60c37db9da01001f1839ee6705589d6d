@@ -1,0 +1,5 @@
+package olaCab;
+
+public class Mini extends Cab {
+
+}

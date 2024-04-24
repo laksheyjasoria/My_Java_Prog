@@ -1,0 +1,5 @@
+package multiOperation;
+
+public class MulDiv extends AddSubCal {
+
+}

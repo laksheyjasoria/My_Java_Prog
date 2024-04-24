@@ -1,0 +1,8 @@
+package whatsapp;
+
+public class WhatsApp {
+
+	private long phno;
+	private String bio;
+	private String status;
+}

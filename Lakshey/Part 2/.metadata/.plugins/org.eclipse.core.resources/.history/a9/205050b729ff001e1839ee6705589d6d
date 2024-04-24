@@ -1,0 +1,7 @@
+package mathProblem;
+
+public class Measurement {
+
+	private float l=5.6f;
+	private float w=8.2f;
+}

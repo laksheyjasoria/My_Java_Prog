@@ -1,0 +1,8 @@
+package college;
+
+public class College {
+
+	String cname ="IGU";
+	String branch ;
+	String name;
+}

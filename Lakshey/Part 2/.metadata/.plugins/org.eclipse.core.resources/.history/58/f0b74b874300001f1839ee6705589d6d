@@ -1,0 +1,16 @@
+package powerCube;
+
+public class SqCube extends Number {
+
+	public static void main(String[] args) {
+		SqCube sc = new SqCube();
+		System.out.println(cube(sc.num));
+		System.out.println(sq(sc.num));
+	}
+	int cube(int a) {
+		return a*a*a;
+	}
+	int sq(int a) {
+		return a*a;
+	}
+}

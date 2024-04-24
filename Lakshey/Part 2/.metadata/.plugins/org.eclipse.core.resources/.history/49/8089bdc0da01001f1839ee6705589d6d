@@ -1,0 +1,5 @@
+package olaCab;
+
+public class Macro extends Cab {
+
+}

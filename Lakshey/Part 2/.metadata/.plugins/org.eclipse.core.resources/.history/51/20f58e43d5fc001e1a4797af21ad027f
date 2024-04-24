@@ -1,0 +1,10 @@
+package student;
+
+public class Student {
+
+	private String name;
+	private long phno;
+	private int roll;
+	private double marks;
+	private String college_name="IGU";
+}

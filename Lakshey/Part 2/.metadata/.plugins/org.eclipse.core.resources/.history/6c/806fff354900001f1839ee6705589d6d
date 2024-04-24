@@ -1,0 +1,5 @@
+package multiOperation2;
+
+public class SumSub extends Data {
+
+}

@@ -1,0 +1,57 @@
+package student;
+import java.util.UUID; 
+
+
+public class Student {
+
+	private String name;
+	private long phno;
+	private int roll;
+	private double marks;
+	private String college_name="IGU";
+	private long adhaarno;
+	private static int count=0;
+	
+	public UUID uniqueIDGenerator { 
+	        UUID uniqueID = UUID.randomUUID(12); 
+	        return uniqueID; 
+	} 
+	public Student(String name, long phno,  double marks) {
+		this.name = name;
+		this.phno = phno;
+		count++;
+		this.roll = count;
+		this.marks = marks;
+	}
+	public Student(String name, long phno,  double marks, String college_name, long adhaarno) {
+		this.name = name;
+		this.phno = phno;
+		count++;
+		this.roll = count;
+		this.marks = marks;
+		this.college_name = college_name;
+		this.adhaarno = this,UniqueIDGenerator;
+	}
+	public long getPhno() {
+		return phno;
+	}
+	public void setPhno(long phno) {
+		this.phno = phno;
+	}
+	public double getMarks() {
+		return marks;
+	}
+	public void setMarks(double marks) {
+		this.marks = marks;
+	}
+	public String getName() {
+		return name;
+	}
+	public int getRoll() {
+		return roll;
+	}
+	public String getCollege_name() {
+		return college_name;
+	}
+
+}

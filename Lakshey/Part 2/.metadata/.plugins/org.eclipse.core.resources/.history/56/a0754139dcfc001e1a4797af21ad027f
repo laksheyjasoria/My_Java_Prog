@@ -1,0 +1,18 @@
+package random;
+import java.util.Date;
+import java.util.Random;
+public class RandomIdGen {
+
+	Date date = new Date();
+	Long luid = (Long) date.getTime();
+	String suid = luid.toString();
+	System.out.println(suid+": "+suid.length() + " characters");
+
+	Random rn = new Random();
+	Integer long1 = rn.nextInt(9);
+	Integer long2 = rn.nextInt(13);
+
+	String newstr = suid.substring(0, long2) + " " + long1 + " " + suid.subtring(long2);
+	System.out.println("New string in spaced format: "+newstr);
+	System.out.println("New string in proper format: "+newstr.replaceAll(" ", ""));
+}
