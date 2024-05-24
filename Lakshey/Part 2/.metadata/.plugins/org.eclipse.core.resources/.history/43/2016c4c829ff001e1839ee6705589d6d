@@ -1,9 +1,0 @@
-package mathProblem;
-
-public class Rectangle extends Measurement {
-
-	public static void main(String[] args) {
-		Rectangle rec = new Rectangle();
-		System.out.println("Area : "+rec.l*rec*w);
-	}
-}

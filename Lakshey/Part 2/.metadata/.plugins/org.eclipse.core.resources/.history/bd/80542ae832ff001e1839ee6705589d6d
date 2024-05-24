@@ -1,5 +1,0 @@
-package sical;
-
-public class SICalculator extends Customer {
-
-}
