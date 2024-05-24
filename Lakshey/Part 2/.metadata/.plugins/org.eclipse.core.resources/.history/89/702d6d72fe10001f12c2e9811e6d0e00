@@ -1,0 +1,8 @@
+package exceptionHandling;
+
+public class StringIndexOutExc {
+
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,12 @@
+package exceptionHandlings;
+
+public class Register {
+
+	int id;
+	String pwd;
+	public Register(int id, String pwd) {
+		super();
+		this.id = id;
+		this.pwd = pwd;
+	}
+}

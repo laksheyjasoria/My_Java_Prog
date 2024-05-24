@@ -1,0 +1,14 @@
+package exceptionHandling;
+
+import java.util.Scanner;
+
+public class NumberFormatExc {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		String s1 ;
+		s1=scanner.nextInt();
+		Integer a = (Integer)s1;
+		scanner.close();
+	}
+}

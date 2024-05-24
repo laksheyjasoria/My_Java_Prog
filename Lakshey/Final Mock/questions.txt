@@ -1,0 +1,9 @@
+Q1 wajp to take a str from user  sa ra ga ma pa da ni sa as a song find the frequency of (sa,re,ga,ma,pa,da,ni)?
+Q2 swap 2 array two array without using third variable a(10 20 30 40) , b(1 2 3 4) ?
+Q3 Pattern program hollow square?
+Q4 Check the number is prime or not by recursion?
+Q5 Exception handling show the implementation of throws and finaaly?
+Q6 Convert String type Character intoo character?
+Q7 Print random word from string no. of printing should be done on user input also create the sentence?
+Q8 upcasting & downcasting with the help of instanceof ?
+Q9 create a LinkedHashMap add the element and access only key?

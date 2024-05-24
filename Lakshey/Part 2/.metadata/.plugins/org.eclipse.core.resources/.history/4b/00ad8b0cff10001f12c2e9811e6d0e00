@@ -1,0 +1,7 @@
+package exceptionHandling;
+
+public class ClassCastExc2 extends ClassCastExc{
+
+	ClassCastExc cc =new ClassCastExc();
+	ClassCastExc2 cc2 = (ClassCastExc2) cc;
+}

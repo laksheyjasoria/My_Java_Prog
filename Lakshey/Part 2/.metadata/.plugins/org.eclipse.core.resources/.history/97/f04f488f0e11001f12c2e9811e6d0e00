@@ -1,0 +1,8 @@
+package exceptionHandling;
+
+public class Dog implements Animal{
+ @Override
+	void speak() {
+		System.out.println("Bark");
+	}
+}

@@ -1,0 +1,16 @@
+package preeti;
+import Collection.*;
+public class LinkedHM {
+
+	
+	
+
+	public static void main(String [] args){
+	LinkedHashMap lhm = new LinkedHashMap();
+	lhm.add(1, "Lucky");
+	lhm.add(2, "Nikku");
+	lhm.add(3, "Lakshey");
+	lhm.getKey();
+	}
+	
+}

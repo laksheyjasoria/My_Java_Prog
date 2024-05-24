@@ -1,0 +1,17 @@
+package olaCab;
+
+public class Cab {
+
+	public static void main(String[] args) {
+		Cab c;
+		c= new Mini();
+		Mini m = (Mini) c;
+		System.out.println("Price of mini : "+m.price);
+		c= new Macro();
+		Macro mm = (Macro) c;
+		System.out.println("Price of macro : "+mm.price);
+		c= new Prime();
+		Prime p = (Prime) c;
+		System.out.println("Price of macro : "+mm.price);
+	}
+}

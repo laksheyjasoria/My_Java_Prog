@@ -1,0 +1,10 @@
+package exceptionHandling;
+
+public class NullPointerExc {
+
+	public static void main(String[] args) {
+		Object ob = new Object();
+		ob=null;
+		System.out.println(ob);
+	}
+}

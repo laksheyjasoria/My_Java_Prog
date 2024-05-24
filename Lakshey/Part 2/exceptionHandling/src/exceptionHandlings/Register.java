@@ -1,0 +1,37 @@
+package exceptionHandlings;
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class Register {
+
+//	int id;
+	static String pwd="Lucky@12";
+	public Register(String pwd) {
+		super();
+//		this.id = id;
+		this.pwd = pwd;
+	}
+   public static void main(String[] args) {
+	Scanner scanner = new Scanner(System.in);
+	System.out.print("Enter the password : ");
+	try {
+		String password = scanner.next();
+//		System.out.println(pwd);
+//		System.out.println(password);
+		try {
+			if(!password.equals(pwd)) {
+				throw new InvalidPassword();
+			}
+		} catch (InvalidPassword e) {
+			System.err.println("Exception occurs");
+		}
+	} catch (InputMismatchException e) {
+		// TODO: handle exception
+//		System.err.println("Input mismatch error");
+		e.getMessage();
+	}
+	
+	scanner.close();
+}
+}

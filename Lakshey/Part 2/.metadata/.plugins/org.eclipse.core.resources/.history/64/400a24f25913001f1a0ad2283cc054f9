@@ -1,0 +1,19 @@
+package exceptionHandlings;
+
+import java.util.Scanner;
+
+public class Register {
+
+//	int id;
+	String pwd;
+	public Register(String pwd) {
+		super();
+//		this.id = id;
+		this.pwd = pwd;
+	}
+   public static void main(String[] args) {
+	Scanner scanner = new Scanner(System.in);
+	System.out.print("Enter the password : ");
+	scanner.close();
+}
+}

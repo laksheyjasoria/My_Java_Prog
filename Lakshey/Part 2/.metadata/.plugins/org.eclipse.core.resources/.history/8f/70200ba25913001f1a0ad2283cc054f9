@@ -1,0 +1,7 @@
+package exceptionHandlings;
+
+public class Register {
+
+	int id;
+	String pwd;
+}
